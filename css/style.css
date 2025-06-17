@@ -299,7 +299,7 @@ ol {
   top: 0;
   width: 100%;
   background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #151515;
   z-index: 9;
 }
 
@@ -407,7 +407,7 @@ ol {
   top: 4px;
   height: 13px;
   width: 1px;
-  background: rgba(225, 225, 225, 0.2);
+  background: #151515;
   content: "";
 }
 .header__nav__social a {
@@ -615,7 +615,7 @@ ol {
   Counter
 -----------------------*/
 .counter {
-  background: #6737af;
+  background: #151515;
   height: 840px;
   padding-top: 380px;
   overflow: hidden;
@@ -626,7 +626,7 @@ ol {
 }
 
 .counter__item {
-  background: #00ff22;
+  background: rgba(225, 225, 225, 0.2);
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
       transform: rotate(45deg);
@@ -790,10 +790,35 @@ ol {
 .blog__item.latest__item {
   margin-bottom: 0;
 }
+/* Clear default hover image */
 .blog__item.latest__item:hover {
-  border: 1px solid #222222 !important;
-  background: url(../img/blog/blog-1.jpg);
+  background: none;
+  border: 1px solid #222 !important;
+}
+
+/* Unique hover backgrounds */
+.latest__item.latest-1:hover {
+  background: url('../img/blog/blog-1.jpg');
   background-size: cover;
+  background-position: center;
+}
+
+.latest__item.latest-2:hover {
+  background: url('../img/blog/blog-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.latest__item.latest-3:hover {
+  background: url('../img/blog/blog-3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.latest__item.latest-4:hover {
+  background: url('../img/blog/blog-4.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .latest__slider.owl-carousel .owl-item .col-lg-4 {
@@ -1028,7 +1053,7 @@ ol {
   About
 -----------------------*/
 .about {
-  background: #100028;
+  background: #151515;
   padding-bottom: 150px;
 }
 
@@ -1181,7 +1206,7 @@ ol {
   Services Page
 -----------------------*/
 .services-page {
-  background: #100028;
+  background: #151515;
   padding-bottom: 50px;
 }
 
@@ -1189,7 +1214,7 @@ ol {
   Logo
 -----------------------*/
 .logo {
-  background: #100028;
+  background: #151515;
   padding: 100px 20px;
 }
 
@@ -1202,7 +1227,7 @@ ol {
   Portfolio
 -----------------------*/
 .portfolio {
-  background: #100028;
+  background: #151515;
 }
 
 .portfolio__filter {
@@ -1347,7 +1372,7 @@ ol {
     Blog
 -----------------------*/
 .blog {
-  background: #100028;
+  background: #151515;
 }
 
 .blog__item {
@@ -1462,7 +1487,7 @@ ol {
   Blog Details
 -----------------------*/
 .blog-details {
-  background: #100028;
+  background: #151515;
 }
 
 .blog__details__text {
@@ -1679,7 +1704,7 @@ ol {
   Contact Widget
 -----------------------*/
 .contact-widget {
-  background: #100028;
+  background: #151515;
   padding-bottom: 70px;
 }
 
@@ -1720,7 +1745,7 @@ ol {
   Contact
 -----------------------*/
 .contact {
-  background: #100028;
+  background: #151515;
   padding-top: 0;
   overflow: hidden;
 }
@@ -1864,7 +1889,7 @@ ol {
 
   .counter {
     height: auto;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 70px;
   }
 
@@ -2167,4 +2192,118 @@ ol {
   .blog__details__quote {
     padding: 30px 40px 35px 35px;
   }
+}
+.resume__title h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume__timeline {
+  border-left: 3px solid #00bfe7;
+  padding-left: 30px;
+  position: relative;
+}
+
+.resume__item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.resume__item::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  left: -38px;
+  top: 6px;
+}
+
+.resume__item h5 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.resume__item h5 span {
+  float: right;
+  color: #00bfe7;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.resume__item p {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.resume__item a {
+  font-weight: bold;
+  color: #39ff14;
+  text-decoration: none;
+  font-size: 14px;
+}
+.resume {
+  background-color: #000000;
+}
+
+.about__pic__item--large {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.languages__section h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.language__flags img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.languages__section p img {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.set-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.ratio-box {
+  position: relative;
+  width: 100%;
+  padding-top: 120%; /* 5:6 aspect ratio = 6 / 5 = 1.2 = 120% */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.small-box {
+  max-width: 250px; /* Shrinks the container */
+  width: 100%;
+  max-height: 250px;
+}
+.counter-label {
+  font-size: 1.5rem;
+  color: #fff;
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+.custom-logo-size {
+  max-height: 70px; /* You can change this value to whatever you like */
+  height: auto;
+  width: auto;
 }
