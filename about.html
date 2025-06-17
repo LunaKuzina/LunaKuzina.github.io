@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="#"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -45,17 +45,15 @@
                             <ul>
                                 <li><a href="./index.html">Home</a></li>
                                 <li class="active"><a href="./about.html">About</a></li>
-                                <li><a href="./portfolio.html">Portfolio</a></li>
                                 <li><a href="./services.html">Skills</a></li>
-                                <li><a href="#">Pages</a>
+                                <li><a href="#">Projects</a>
                                     <ul class="dropdown">
-                                        <li><a href="./about.html">About</a></li>
-                                        <li><a href="./portfolio.html">Portfolio</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
-                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                        <li><a href="#">UX/UI Redesign</a></li>
+                                        <li><a href="#">Cats INC.</a></li>
+                                        <li><a href="#">Smirates of the Smaribean Smea</a></li>
+                                        <li><a href="#">Efteling GO!</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./contact.html">Contact</a></li>
                             </ul>
                     </div>
                 </div>
@@ -72,9 +70,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>About us</h2>
+                        <h2>About me</h2>
                         <div class="breadcrumb__links">
-                            <a href="#">Home</a>
+                            <a href="index.html">Home</a>
                             <span>About</span>
                         </div>
                     </div>
@@ -87,57 +85,64 @@
     <!-- About Section Begin -->
     <section class="about spad">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="about__pic">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="about__pic__item about__pic__item--large set-bg"
-                                    data-setbg="img/about/about-1.jpg"></div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="about__pic__item set-bg" data-setbg="img/about/about-2.jpg"></div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="about__pic__item set-bg" data-setbg="img/about/about-3.jpg"></div>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="row align-items-center">
+                <!-- Image Container with 6:5 Ratio & Side Padding -->
+                <div class="col-lg-6 d-flex justify-content-start"> <!-- align left -->
+                    <div style="padding: 0 20px; width: 100%; max-width: 400px;">
+                        <div class="about__pic__item about__pic__item--large"
+                             style="
+                             position: relative;
+                             width: 100%;
+                             padding-top: 119.4%; /* 6:5 aspect ratio */
+                             background-image: url('img/about/about-1.jpg');
+                             background-size: cover;
+                             background-position: center;
+                             border-radius: 8px;
+                         ">
                         </div>
                     </div>
                 </div>
+
+                <!-- Text and Languages -->
                 <div class="col-lg-6">
                     <div class="about__text">
                         <div class="section-title">
-                            <span>About videograph</span>
-                            <h2>WHo we are?</h2>
+                            <span>Luna Olga Kuzina</span>
+                            <h2>About me</h2>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="services__item">
-                                    <div class="services__item__icon">
-                                        <img src="img/icons/si-3.png" alt="">
-                                    </div>
-                                    <h4>Video distribution</h4>
-                                    <p>Whether you’re halfway through the editing process, or you.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="services__item">
-                                    <div class="services__item__icon">
-                                        <img src="img/icons/si-4.png" alt="">
-                                    </div>
-                                    <h4>Video hosting</h4>
-                                    <p>Whether you’re halfway through the editing process, or you.</p>
-                                </div>
-                            </div>
-                        </div>
+
+                        <!-- Description -->
                         <div class="about__text__desc">
-                            <p>Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service
-                                production company specializing in commercial, broadcast, tourism & action sport video
-                                production services has been featured.</p>
+                            <p>
+                                I'm a student at Hanze University in Groningen, taking the Creative Media and Game
+                                Technologies course. I'm a freelance artist actively involved in various online
+                                communities, where I create my own characters, both within existing franchises and
+                                original concepts. I’m always experimenting with new art styles to push my boundaries
+                                and grow as an artist.
+                                I’ve taken the lead on university and side projects, where I’ve been responsible for
+                                most of the visual development. I thrive in creative environments, and I’m always
+                                excited to bring fresh ideas to life through art.
+                            </p>
+                        </div>
+
+                        <!-- Languages -->
+                        <div class="languages__section mt-4">
+                            <h4 style="color: #ffffff;">Languages</h4>
+                            <p>
+                                <img src="https://flagcdn.com/w20/gb.png" srcset="https://flagcdn.com/w40/gb.png 2x" width="20" alt="English"> English &nbsp;&nbsp;
+                                <img src="https://flagcdn.com/w20/ru.png" srcset="https://flagcdn.com/w40/ru.png 2x" width="20" alt="Russian"> Russian &nbsp;&nbsp;
+                                <img src="https://flagcdn.com/w20/si.png" srcset="https://flagcdn.com/w40/si.png 2x" width="20" alt="Slovenian"> Slovenian
+                            </p>
+                        </div>
+
+                        <!-- Learning -->
+                        <div class="languages__section mt-4">
+                            <h4 style="color: #ffffff;">Learning</h4>
+                            <p>
+                                <img src="https://flagcdn.com/w20/de.png" srcset="https://flagcdn.com/w40/de.png 2x" width="20" alt="German"> German &nbsp;&nbsp;
+                                <img src="https://flagcdn.com/w20/nl.png" srcset="https://flagcdn.com/w40/nl.png 2x" width="20" alt="Dutch"> Dutch &nbsp;&nbsp;
+                                <img src="https://flagcdn.com/w20/gr.png" srcset="https://flagcdn.com/w40/gr.png 2x" width="20" alt="Greek"> Greek
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -146,121 +151,78 @@
     </section>
     <!-- About Section End -->
 
-    <!-- Testimonial Section Begin -->
-    <section class="testimonial spad set-bg" data-setbg="img/testimonial-bg.jpg">
+    <!-- Resume Section Begin -->
+    <section class="resume spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title center-title">
-                        <span>Loved By Clients</span>
-                        <h2>What clients say?</h2>
+                <!-- Education Column -->
+                <div class="col-lg-6">
+                    <div class="resume__title">
+                        <h3>EDUCATION</h3>
+                    </div>
+                    <div class="resume__timeline">
+                        <div class="resume__item">
+                            <h5>Primary and Middle School<span>Sep 2009 - Jun 2018</span></h5>
+                            <p>International School of Paphos</p>
+                            <p>Paphos, Cyprus</p>
+                        </div>
+                        <div class="resume__item">
+                            <h5>Middle School<span>Sep 2018 - Jun 2020</span></h5>
+                            <p>Osnovna šola Poljane</p>
+                            <p>Ljubljana</p>
+                        </div>
+                        <div class="resume__item">
+                            <h5>High School<span>Sep 2020 - Jun 2024</span></h5>
+                            <p>Škofijska Klasična Gimnazija</p>
+                            <p>Ljubljana</p>
+                        </div>
+                        <div class="resume__item">
+                            <h5>University<span>Sep 2024 - Present</span></h5>
+                            <p>Hanze University of Applied Sciences</p>
+                            <p>Groningen</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="testimonial__slider owl-carousel">
-                    <div class="col-lg-4">
-                        <div class="testimonial__item">
-                            <div class="testimonial__text">
-                                <p>Delivers such a great service that it can benefit all kinds of people from any number
-                                    of industries.</p>
-                            </div>
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="img/testimonial/ta-1.jpg" alt="">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Krista Attorn</h5>
-                                    <span>Web Designer</span>
-                                </div>
-                            </div>
-                        </div>
+
+                <!-- Job Experience Column -->
+                <div class="col-lg-6">
+                    <div class="resume__title">
+                        <h3>EMPLOYMENT</h3>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial__item">
-                            <div class="testimonial__text">
-                                <p>Videographer delivers such a great service that it can benefit all kinds of people
-                                    from any number.</p>
-                            </div>
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="img/testimonial/ta-2.jpg" alt="">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Krista Attorn</h5>
-                                    <span>Web Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial__item">
-                            <div class="testimonial__text">
-                                <p>Videographer delivers such a great service that it can benefit all kinds of people
-                                    from any number.</p>
-                            </div>
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="img/testimonial/ta-3.jpg" alt="">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Krista Attorn</h5>
-                                    <span>Web Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial__item">
-                            <div class="testimonial__text">
-                                <p>Delivers such a great service that it can benefit all kinds of people from any number
-                                    of industries.</p>
-                            </div>
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="img/testimonial/ta-1.jpg" alt="">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Krista Attorn</h5>
-                                    <span>Web Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial__item">
-                            <div class="testimonial__text">
-                                <p>Videographer delivers such a great service that it can benefit all kinds of people
-                                    from any number.</p>
-                            </div>
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="img/testimonial/ta-2.jpg" alt="">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Krista Attorn</h5>
-                                    <span>Web Designer</span>
-                                </div>
-                            </div>
+                    <div class="resume__timeline">
+                        <div class="resume__item">
+                            <h5>Freelance Artist <span>Nov 2023 - Present</span></h5>
+                            <p>Online Communities</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Testimonial Section End -->
+    <!-- Resume Section End -->
+
+    <!-- Skills Title Section Begin -->
+    <section class="spad"
+             style="background-color: #151515; color: #fff; padding-top: 60px; padding-bottom: 8px;">
+        <div class="container"
+             style="height: auto; text-align: center;">
+            <h2 style="font-size: 36px; margin: 0; font-weight: 510; color: #ffffff;">
+                Hobbies
+            </h2>
+        </div>
+    </section>
+    <!-- Skills Title Section End -->
 
     <!-- Counter Section Begin -->
     <section class="counter">
         <div class="container">
             <div class="counter__content">
-                <div class="row">
+                <div class="row text-center">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="counter__item">
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-1.png" alt="">
-                                <h2 class="counter_num">230</h2>
-                                <p>Compled Projects</p>
+                                <code class="counter-label">&nbsp;&nbsp;Photo Editing</code>
                             </div>
                         </div>
                     </div>
@@ -268,8 +230,7 @@
                         <div class="counter__item second__item">
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-2.png" alt="">
-                                <h2 class="counter_num">1068</h2>
-                                <p>Happy clients</p>
+                                <code class="counter-label">&nbsp;&nbsp;Writing</code>
                             </div>
                         </div>
                     </div>
@@ -277,8 +238,7 @@
                         <div class="counter__item third__item">
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-3.png" alt="">
-                                <h2 class="counter_num">230</h2>
-                                <p>Perspective clients</p>
+                                <code class="counter-label">&nbsp;&nbsp;Fashion</code>
                             </div>
                         </div>
                     </div>
@@ -286,8 +246,7 @@
                         <div class="counter__item four__item">
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-4.png" alt="">
-                                <h2 class="counter_num">230</h2>
-                                <p>Compled Projects</p>
+                                <code class="counter-label">&nbsp;&nbsp;Swimming</code>
                             </div>
                         </div>
                     </div>
@@ -297,161 +256,18 @@
     </section>
     <!-- Counter Section End -->
 
-    <!-- Team Section Begin -->
-    <section class="team spad set-bg" data-setbg="img/team-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title team__title">
-                        <span>Nice to meet</span>
-                        <h2>OUR Team</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item set-bg" data-setbg="img/team/team-1.jpg">
-                        <div class="team__item__text">
-                            <h4>AMANDA STONE</h4>
-                            <p>Videographer</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--second set-bg" data-setbg="img/team/team-2.jpg">
-                        <div class="team__item__text">
-                            <h4>AMANDA STONE</h4>
-                            <p>Videographer</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--third set-bg" data-setbg="img/team/team-3.jpg">
-                        <div class="team__item__text">
-                            <h4>AMANDA STONE</h4>
-                            <p>Videographer</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--four set-bg" data-setbg="img/team/team-4.jpg">
-                        <div class="team__item__text">
-                            <h4>AMANDA STONE</h4>
-                            <p>Videographer</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 p-0">
-                    <div class="team__btn">
-                        <a href="#" class="primary-btn">Meet Our Team</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Team Section End -->
-
     <!-- Footer Section Begin -->
     <footer class="footer">
         <div class="container">
             <div class="footer__top">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__option">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer__option__item">
-                            <h5>About us</h5>
-                            <p>Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service
-                                production company specializing.</p>
-                            <a href="#" class="read__more">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-3">
-                        <div class="footer__option__item">
-                            <h5>Who we are</h5>
-                            <ul>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Carrers</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Locations</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-3">
-                        <div class="footer__option__item">
-                            <h5>Our work</h5>
-                            <ul>
-                                <li><a href="#">Feature</a></li>
-                                <li><a href="#">Latest</a></li>
-                                <li><a href="#">Browse Archive</a></li>
-                                <li><a href="#">Video for web</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="footer__option__item">
-                            <h5>Newsletter</h5>
-                            <p>Videoprah is an award-winning, full-service production company specializing.</p>
-                            <form action="#">
-                                <input type="text" placeholder="Email">
-                                <button type="submit"><i class="fa fa-send"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__copyright">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="footer__copyright__text">Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <p class="footer__copyright__text">
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                            All rights reserved | Template by
+                            <a href="https://colorlib.com" style="color: white;">Colorlib</a>
                         </p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
                 </div>
             </div>
