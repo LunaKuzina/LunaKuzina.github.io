@@ -140,12 +140,14 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__form">
                         <h3>Get in touch</h3>
-                        <form action="#">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
-                            <input type="text" placeholder="Website">
-                            <textarea placeholder="Message"></textarea>
+                        <form action="https://formsubmit.co/olgamkhkuzina@gmail.com" method="POST">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="text" name="website" placeholder="Website">
+                            <textarea name="message" placeholder="Message" required></textarea>
                             <button type="submit" class="site-btn">Send Message</button>
+                            <!-- Optional: disable CAPTCHA -->
+                            <input type="hidden" name="_captcha" value="false">
                         </form>
                     </div>
                 </div>
